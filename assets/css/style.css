@@ -7,10 +7,42 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(100deg, black, gray);
+    margin-top: 100px;
+    background: linear-gradient(320deg, rgb(63, 62, 99), rgba(71, 55, 36, 0.856));
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: auto;
+}
+
+.caixa {
+    height: 200px;
+    width: auto;
+    display:block;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+nav { 
+    position: initial;
+    top: 110px;
+    right:0;}
+    
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;}
+
+nav a:hover {
+    color: rgb(94, 15, 221);
 }
 
 .relogio {
