@@ -6,23 +6,14 @@
 }
 
 body {
-    height: 100vh;
+    height: 500px;
     margin-top: 100px;
-    background: linear-gradient(320deg, rgb(63, 62, 99), rgba(71, 55, 36, 0.856));
+    background: linear-gradient(90deg, rgb(67, 66, 114), rgb(119, 117, 117), rgba(100, 78, 51, 0.856));
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: auto;
-}
-
-.caixa {
-    height: 200px;
-    width: auto;
-    display:block;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav { 
@@ -53,7 +44,9 @@ nav a:hover {
     width: 550px;
     background: transparent;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, .5) ;
-    border-radius: 0% 0px 15px;
+    border-radius: 15px;
+    border: 200px;
+    border-color: aqua;
 }
 
 .relogio div {
@@ -63,10 +56,10 @@ nav a:hover {
     flex-direction: column ;
     align-items: center ;
     justify-content: center;
-    color: aliceblue;
+    color: whitesmoke;
     background: black;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
-    border-radius: 7px;
+    border-radius: 9px;
     letter-spacing: 3px;
 }
 

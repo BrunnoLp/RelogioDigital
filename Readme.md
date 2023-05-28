@@ -1,2 +1,2 @@
-Esse é o meu primeiro projeto usando html, css e js.
-Proposta da mentoria 
+Relogio Digital em pagina web
+Aplicando html, css e javascript
